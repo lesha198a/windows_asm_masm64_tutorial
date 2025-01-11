@@ -5,7 +5,7 @@ includelib msvcrt.lib
 option casemap:none
 
 .data
-fmtStr byte 'Hello', 10, 0
+fmtStr byte 'Hello World!', 10, 0
 
 .code
 externdef printf:proc
