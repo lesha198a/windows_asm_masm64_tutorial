@@ -20,4 +20,5 @@ target_link_libraries(helloworld PRIVATE
         ucrt.lib
 )
 
-add_subdirectory(asm)
+add_subdirectory(empty_main)
+add_subdirectory(tutorial1)

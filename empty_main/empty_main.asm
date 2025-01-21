@@ -13,7 +13,7 @@ main proc
 
 
 
-    xor ecx, ecx
+    mov ecx, 0
     call exit
 main endp
 
